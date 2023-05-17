@@ -202,3 +202,69 @@ footer ul li {
     text-align: center;
     color: #21243D;
 }
+.article-works {
+    background: #E5E5E5;
+    padding: 15px 148px 83px 146px;
+
+}
+.article-works article{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+.article-works h4 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    /* identical to box height, or 273% */
+    /* Dark Color */
+    color: #21243D;
+    margin-bottom: 22px;
+}
+.article-works h2 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+    /* Dark Color */
+    color: #21243D;
+}
+.year {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 16px;
+    margin-right: 26px;
+}
+.title-article {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* Light */
+    color: #8695A4;
+
+}
+.text-article {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* Dark Color */
+    color: #21243D;
+
+}
+.images-article {
+    border-radius: 6px;
+}

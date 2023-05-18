@@ -19,6 +19,26 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'heeboregular';
+    src: url('../fonts/heebo-regular-webfont.eot');
+    src: url('../fonts/heebo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-regular-webfont.woff') format('woff'),
+    url('../fonts/heebo-regular-webfont.svg#heeboregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'heeboblack';
+    src: url('../fonts/heebo-black-webfont.eot');
+    src: url('../fonts/heebo-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-black-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-black-webfont.woff') format('woff'),
+    url('../fonts/heebo-black-webfont.svg#heeboblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     padding: 0;
     margin: 0;
@@ -66,30 +86,22 @@ header nav ul li a{
     padding: 13px 20px;
     margin-bottom: 38px;
     display: inline-block;
-    font-family: 'Heebo';
+    font: 20px/29px 'heebomedium';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
     color: #FFFFFF;
     text-decoration: none;
     transition: 0.3s;
 }
 .main_banner h1{
-    font-family: 'heebobold';
-    font-size: 44px;
-    line-height: 60px;
+    font:44px/60px 'heebobold';
     color: #21243D;
 }
 .main_banner a:hover{
     background-color: yellow;
 }
 .main_banner p{
-    font-family: 'Heebo';
+    font: 16px/24px 'heebomedium';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     margin-bottom: 40px;
     color: #21243D;
 }
@@ -209,16 +221,13 @@ footer ul li {
     margin-left: 17px
 }
 .footer p{
-    font-family: 'Heebo';
+    font: 14px/21px 'heeboregular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
     text-align: center;
     color: #21243D;
 }
 .article-works {
-    background: #E5E5E5;
+    background: white;
     padding: 15px 148px 83px 146px;
 
 }
@@ -240,32 +249,23 @@ footer ul li {
     flex: 1;
 }
 .article-works h4 {
-    font-family: 'Heebo';
+    font: 22px/60px 'heeboregular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 60px;
     /* identical to box height, or 273% */
     /* Dark Color */
     color: #21243D;
     margin-bottom: 22px;
 }
 .article-works h2 {
-    font-family: 'Heebo';
+    font: 30px/44px 'heebobold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 44px;
     /* identical to box height */
     /* Dark Color */
     color: #21243D;
 }
 .year {
-    font-family: 'Heebo';
+    font: 18px/60px 'heeboblack';
     font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 60px;
     /* identical to box height, or 333% */
     color: #FFFFFF;
     background: #142850;
@@ -274,21 +274,15 @@ footer ul li {
     padding: 4px 10px;
 }
 .title-article {
-    font-family: 'Heebo';
+    font: 20px/29px 'heeboregular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
     /* Light */
     color: #8695A4;
 
 }
 .text-article {
-    font-family: 'Heebo';
+    font: 16px/24px 'heeboregular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     /* Dark Color */
     color: #21243D;
 
